@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir HTML</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+    <hr>
+    <fieldset>
+        <legend><h2>Formuir Calon Pegawai</h2></legend>
+        <table cellpadding="10">
+            <tr>
+                <td><label for="nama"><b>Nama</b></label></td>
+                <td><b>: </b></td>
+                <td><input type="text" placeholder="Nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="alamat"><b>Alamat</b></label></td>
+                <td><b>: </b></td>
+                <td><input type="text" placeholder="Alamat" id="alamat"></td>
+            </tr>
+            <tr>
+                <td><label for="pass"><b>Password</b> :</b></label></td>
+                <td><b>: </b></td>
+                <td><input type="password" placeholder="Password" id="pass"></td>
+            </tr>
+            <tr>
+                <td><label><b>Jenis Kelamin</b></label></td>
+                <td><b>: </b></td>
+                <td><input type="radio" name="JK">Laki-Laki <input type="radio" name="JK">Perempuan</td><br>
+                
+            </tr>
+            <tr>
+                <td><label><b>Bahasa pemograman yang dikuasai</b></label></td>
+                <td><b>: </b></td>
+                <td><input type="checkbox">Web <input type="checkbox">MOBILE <input type="checkbox">DESKTOP</td>
+            </tr>
+            <tr>
+                <td><label><b>Kota asal</b></label></td>
+                <td><b>: </b></td>
+                <td>       
+                    <select>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Manado">Manado</option>
+                        <option value="Jakarta">Jakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="komen"><b>Apa yang membuat kami harus memilih Anda?</b></label></td>
+                <td><b>: </b></td>
+                <td><textarea id="komen" cols="50" rows="10" placeholder="Tulis Jawaban Anda di Sini..."></textarea></td>
+            </tr>
+            <tr>
+                <td><button>Prosses</button></td>
+            </tr>
+        </table>
+    </fieldset>
+    
+</body>
+</html>
