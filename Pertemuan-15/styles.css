@@ -1,0 +1,60 @@
+/* p {
+    color: chocolate;
+}
+
+p.error{
+    color: red;
+}
+
+p.succes{
+    color: blue;
+    border: 5px double darkred;
+}
+
+/* .friend{
+    border-width: 5px;
+    border-style: double;
+    border-color: darkred; 
+    border: 5px double darkred;
+} */ 
+
+div .error{
+    color: red;
+}
+
+#top{
+    background-color: lightpink;
+}
+
+#bot{
+    background-color: lightsteelblue;
+}
+
+a[href]{
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: lightsalmon;
+}
+
+a[href*=instagram]{
+    background-color: maroon;
+}
+
+a[href$=".ac.id"]{
+    background-color: red;
+}
+
+h2:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+p::selection{
+    color: yellow;
+    background-color: green;
+}
+
+a::before{
+    content: "-Link-";
+}
