@@ -1,0 +1,17 @@
+span{
+    /* display: inline-block; */
+    display: none;
+    margin: 30px;
+    padding: 30px;
+}
+
+div{
+    /* visibility: hidden; */
+    display: inline;
+    margin: 25px;
+    padding: 25px;
+}
+
+a[href]{
+    visibility: hidden;
+}
