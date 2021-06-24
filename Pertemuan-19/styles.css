@@ -1,0 +1,23 @@
+ html {
+    font-size: 16px;
+} 
+
+div {
+    font-size: 1.5em;
+}
+
+.pixel{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rem {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.em {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
